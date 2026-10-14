@@ -1,0 +1,216 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.146'
+}
+
+version = mod_version
+group = mod_group_id
+
+base {
+    archivesName = "${mod_id}-neoforge-${minecraft_version}"
+}
+
+java {
+    toolchain.languageVersion = JavaLanguageVersion.of(21)
+    withSourcesJar()
+}
+
+sourceSets {
+    gameTest {
+        compileClasspath += sourceSets.main.output
+        runtimeClasspath += sourceSets.main.output
+    }
+}
+neoForge {
+    version = neo_version
+    addModdingDependenciesTo(sourceSets.gameTest)
+    mods {
+        builders_balloon { sourceSet(sourceSets.main) }
+        builders_balloon_tests { sourceSet(sourceSets.gameTest) }
+    }
+    runs {
+        client { client(); loadedMods = [mods.builders_balloon] }
+        server { server(); programArgument '--nogui'; loadedMods = [mods.builders_balloon] }
+        gameTestServer {
+            type = 'gameTestServer'
+            sourceSet = sourceSets.gameTest
+            gameDirectory = layout.buildDirectory.dir('gameTestRun').get().asFile
+            systemProperty 'neoforge.enabledGameTestNamespaces', 'builders_balloon_tests'
+        }
+    }
+}
+
+var generateModMetadata = tasks.register('generateModMetadata', ProcessResources) {
+    var replaceProperties = [
+        minecraft_version_range: minecraft_version_range,
+        neo_version_range: neo_version_range,
+        loader_version_range: loader_version_range,
+        mod_id: mod_id,
+        mod_name: mod_name,
+        mod_version: mod_version,
+        mod_authors: mod_authors,
+        mod_license: mod_license,
+        mod_description: mod_description
+    ]
+    inputs.properties replaceProperties
+    expand replaceProperties
+    from 'src/main/templates'
+    into 'build/generated/sources/modMetadata'
+}
+
+sourceSets.main.resources.srcDir generateModMetadata
+neoForge.ideSyncTask generateModMetadata
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 21
+}
+
+tasks.named('jar', Jar) {
+    from('LICENSE') {
+        into 'META-INF'
+    }
+    from('NOTICE.md') {
+        into 'META-INF'
+    }
+}
+
+tasks.named('sourcesJar', Jar) {
+    from('LICENSE') {
+        into 'META-INF'
+    }
+    from('NOTICE.md') {
+        into 'META-INF'
+    }
+}
+
+tasks.withType(AbstractArchiveTask).configureEach {
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
+}
+
+var prepareJarGameTests = tasks.register('prepareJarGameTests', Sync) {
+    from(tasks.named('jar'))
+    into(layout.buildDirectory.dir('jarGameTestRun/mods'))
+}
+neoForge.runs {
+    jarGameTestServer {
+        type = 'gameTestServer'
+        sourceSet = sourceSets.gameTest
+        loadedMods = [neoForge.mods.builders_balloon_tests]
+        gameDirectory = layout.buildDirectory.dir('jarGameTestRun').get().asFile
+        systemProperty 'neoforge.enabledGameTestNamespaces', 'builders_balloon_tests'
+        systemProperty 'balloon.tests.requireJar', 'true'
+        taskBefore prepareJarGameTests
+    }
+}
+
+sourceSets {
+    boundaryChecks {
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += sourceSets.main.output + sourceSets.main.runtimeClasspath
+    }
+}
+var boundaryChecks = tasks.register('boundaryChecks', JavaExec) {
+    dependsOn tasks.named('boundaryChecksClasses')
+    classpath = sourceSets.boundaryChecks.runtimeClasspath
+    mainClass = 'dev.tilosophy.buildersballoon.BoundaryChecks'
+}
+tasks.named('check') { dependsOn boundaryChecks }
+
+// Optional compatibility only: Sable/Companion are supplied by Sable at runtime.
+repositories {
+    exclusiveContent {
+        forRepository { maven { url = 'https://maven.ryanhcode.dev/releases' } }
+        filter { includeGroup 'dev.ryanhcode.sable'; includeGroup 'dev.ryanhcode.sable-companion' }
+    }
+}
+dependencies {
+    compileOnly('dev.ryanhcode.sable:sable-common-1.21.1:2.0.6') { transitive = false }
+    compileOnly('dev.ryanhcode.sable-companion:sable-companion-common-1.21.1:1.6.0') { transitive = false }
+    gameTestCompileOnly('dev.ryanhcode.sable:sable-common-1.21.1:2.0.6') { transitive = false }
+    gameTestCompileOnly('dev.ryanhcode.sable-companion:sable-companion-common-1.21.1:1.6.0') { transitive = false }
+}
+
+// Isolated real-Sable server fixtures; never included in normal runs or artifacts.
+sourceSets {
+    sableTest {
+        compileClasspath += sourceSets.main.output + sourceSets.gameTest.output
+        runtimeClasspath += sourceSets.main.output + sourceSets.gameTest.output
+    }
+}
+neoForge.addModdingDependenciesTo(sourceSets.sableTest)
+configurations { sableFixture }
+repositories {
+    exclusiveContent {
+        forRepository { maven { url = 'https://api.modrinth.com/maven' } }
+        filter { includeGroup 'maven.modrinth' }
+    }
+}
+dependencies {
+    sableTestCompileOnly('dev.ryanhcode.sable:sable-common-1.21.1:2.0.6') { transitive = false }
+    sableTestCompileOnly('dev.ryanhcode.sable-companion:sable-companion-common-1.21.1:1.6.0') { transitive = false }
+    sableFixture('maven.modrinth:sable:fg9dTRz9') { transitive = false }
+}
+neoForge.mods {
+    builders_balloon_sable_tests { sourceSet(sourceSets.sableTest) }
+}
+var prepareSableJarGameTests = tasks.register('prepareSableJarGameTests', Sync) {
+    from(tasks.named('jar'))
+    from(configurations.sableFixture)
+    into(layout.buildDirectory.dir('sableJarGameTestRun/mods'))
+}
+neoForge.runs {
+    sableJarGameTestServer {
+        type = 'gameTestServer'
+        sourceSet = sourceSets.sableTest
+        loadedMods = [neoForge.mods.builders_balloon_tests, neoForge.mods.builders_balloon_sable_tests]
+        gameDirectory = layout.buildDirectory.dir('sableJarGameTestRun').get().asFile
+        systemProperty 'neoforge.enabledGameTestNamespaces', 'builders_balloon_tests,builders_balloon_sable_tests'
+        systemProperty 'balloon.tests.requireJar', 'true'
+        taskBefore prepareSableJarGameTests
+    }
+}
+
+// Optional real-rope-mod fixtures, supplied outside the repository; never bundled.
+var prepareRopeCompatJarGameTests = tasks.register('prepareRopeCompatJarGameTests', Sync) {
+    from(tasks.named('jar'))
+    if (providers.gradleProperty('ropeFixtureDirectory').isPresent()) {
+        from(fileTree(providers.gradleProperty('ropeFixtureDirectory').get()) { include '*.jar' })
+    }
+    into(layout.buildDirectory.dir('ropeCompatJarGameTestRun/mods'))
+}
+neoForge.runs {
+    ropeCompatJarGameTestServer {
+        type = 'gameTestServer'
+        sourceSet = sourceSets.gameTest
+        loadedMods = [neoForge.mods.builders_balloon_tests]
+        gameDirectory = layout.buildDirectory.dir('ropeCompatJarGameTestRun').get().asFile
+        systemProperty 'neoforge.enabledGameTestNamespaces', 'builders_balloon_tests'
+        systemProperty 'balloon.tests.requireJar', 'true'
+        systemProperty 'balloon.tests.requireRopes', 'true'
+        systemProperty 'balloon.tests.requireQuark', 'true'
+        taskBefore prepareRopeCompatJarGameTests
+    }
+}
+
+// Real Create fixture and its declared dependencies are supplied externally.
+var prepareCreateJarGameTests = tasks.register('prepareCreateJarGameTests', Sync) {
+    from(tasks.named('jar'))
+    if (providers.gradleProperty('createFixtureDirectory').isPresent()) {
+        from(fileTree(providers.gradleProperty('createFixtureDirectory').get()) { include '*.jar' })
+    }
+    into(layout.buildDirectory.dir('createJarGameTestRun/mods'))
+}
+neoForge.runs {
+    createJarGameTestServer {
+        type = 'gameTestServer'
+        sourceSet = sourceSets.gameTest
+        loadedMods = [neoForge.mods.builders_balloon_tests]
+        gameDirectory = layout.buildDirectory.dir('createJarGameTestRun').get().asFile
+        systemProperty 'neoforge.enabledGameTestNamespaces', 'builders_balloon_tests'
+        systemProperty 'balloon.tests.requireJar', 'true'
+        systemProperty 'balloon.tests.requireCreate', 'true'
+        taskBefore prepareCreateJarGameTests
+    }
+}

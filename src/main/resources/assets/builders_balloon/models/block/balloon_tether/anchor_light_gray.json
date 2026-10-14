@@ -1,0 +1,7 @@
+{
+  "parent": "builders_balloon:block/balloon_tether/model",
+  "textures": {
+    "paint": "builders_balloon:block/anchor/paint_light_gray",
+    "paint_end": "builders_balloon:block/anchor/cap_light_gray"
+  }
+}

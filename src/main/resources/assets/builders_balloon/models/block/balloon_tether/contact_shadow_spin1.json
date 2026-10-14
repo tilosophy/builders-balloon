@@ -1,0 +1,11 @@
+{
+  "loader": "neoforge:obj",
+  "parent": "block/block",
+  "model": "builders_balloon:models/block/balloon_tether/contact_shadow_spin1.obj",
+  "flip_v": true,
+  "automatic_culling": false,
+  "render_type": "translucent",
+  "textures": {
+    "contact_shadow": "builders_balloon:block/anchor/contact_shadow"
+  }
+}

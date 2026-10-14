@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "builders_balloon:metal_bollard"
+    },
+    {
+      "item": "minecraft:green_dye"
+    }
+  ],
+  "result": {
+    "id": "builders_balloon:metal_bollard",
+    "count": 1,
+    "components": {
+      "minecraft:block_state": {
+        "color": "green"
+      }
+    }
+  }
+}

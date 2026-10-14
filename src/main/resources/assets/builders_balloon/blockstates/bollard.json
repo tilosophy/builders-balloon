@@ -1,0 +1,5148 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "direction": "down",
+        "spin": 0,
+        "color": "white"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_white"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 0,
+        "color": "orange"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_orange"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 0,
+        "color": "magenta"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_magenta"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 0,
+        "color": "light_blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_blue"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 0,
+        "color": "yellow"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_yellow"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 0,
+        "color": "lime"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_lime"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 0,
+        "color": "pink"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_pink"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 0,
+        "color": "gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_gray"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 0,
+        "color": "light_gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_gray"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 0,
+        "color": "cyan"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_cyan"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 0,
+        "color": "purple"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_purple"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 0,
+        "color": "blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_blue"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 0,
+        "color": "brown"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_brown"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 0,
+        "color": "green"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_green"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 0,
+        "color": "red"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_red"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 0,
+        "color": "black"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_black"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 0
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/weathering"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 0,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/rope"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 0,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/contact_shadow"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 1,
+        "color": "white"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_white_spin1"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 1,
+        "color": "orange"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_orange_spin1"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 1,
+        "color": "magenta"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_magenta_spin1"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 1,
+        "color": "light_blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_blue_spin1"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 1,
+        "color": "yellow"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_yellow_spin1"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 1,
+        "color": "lime"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_lime_spin1"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 1,
+        "color": "pink"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_pink_spin1"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 1,
+        "color": "gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_gray_spin1"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 1,
+        "color": "light_gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_gray_spin1"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 1,
+        "color": "cyan"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_cyan_spin1"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 1,
+        "color": "purple"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_purple_spin1"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 1,
+        "color": "blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_blue_spin1"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 1,
+        "color": "brown"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_brown_spin1"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 1,
+        "color": "green"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_green_spin1"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 1,
+        "color": "red"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_red_spin1"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 1,
+        "color": "black"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_black_spin1"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 1
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/weathering_spin1"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 1,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/rope_spin1"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 1,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/contact_shadow_spin1"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 2,
+        "color": "white"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_white_spin2"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 2,
+        "color": "orange"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_orange_spin2"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 2,
+        "color": "magenta"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_magenta_spin2"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 2,
+        "color": "light_blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_blue_spin2"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 2,
+        "color": "yellow"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_yellow_spin2"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 2,
+        "color": "lime"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_lime_spin2"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 2,
+        "color": "pink"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_pink_spin2"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 2,
+        "color": "gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_gray_spin2"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 2,
+        "color": "light_gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_gray_spin2"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 2,
+        "color": "cyan"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_cyan_spin2"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 2,
+        "color": "purple"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_purple_spin2"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 2,
+        "color": "blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_blue_spin2"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 2,
+        "color": "brown"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_brown_spin2"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 2,
+        "color": "green"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_green_spin2"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 2,
+        "color": "red"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_red_spin2"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 2,
+        "color": "black"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_black_spin2"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 2
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/weathering_spin2"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 2,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/rope_spin2"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 2,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/contact_shadow_spin2"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 3,
+        "color": "white"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_white_spin3"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 3,
+        "color": "orange"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_orange_spin3"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 3,
+        "color": "magenta"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_magenta_spin3"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 3,
+        "color": "light_blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_blue_spin3"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 3,
+        "color": "yellow"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_yellow_spin3"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 3,
+        "color": "lime"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_lime_spin3"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 3,
+        "color": "pink"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_pink_spin3"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 3,
+        "color": "gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_gray_spin3"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 3,
+        "color": "light_gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_gray_spin3"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 3,
+        "color": "cyan"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_cyan_spin3"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 3,
+        "color": "purple"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_purple_spin3"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 3,
+        "color": "blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_blue_spin3"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 3,
+        "color": "brown"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_brown_spin3"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 3,
+        "color": "green"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_green_spin3"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 3,
+        "color": "red"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_red_spin3"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 3,
+        "color": "black"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_black_spin3"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 3
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/weathering_spin3"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 3,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/rope_spin3"
+      }
+    },
+    {
+      "when": {
+        "direction": "down",
+        "spin": 3,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/contact_shadow_spin3"
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 0,
+        "color": "white"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_white",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 0,
+        "color": "orange"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_orange",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 0,
+        "color": "magenta"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_magenta",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 0,
+        "color": "light_blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_blue",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 0,
+        "color": "yellow"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_yellow",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 0,
+        "color": "lime"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_lime",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 0,
+        "color": "pink"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_pink",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 0,
+        "color": "gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_gray",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 0,
+        "color": "light_gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_gray",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 0,
+        "color": "cyan"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_cyan",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 0,
+        "color": "purple"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_purple",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 0,
+        "color": "blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_blue",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 0,
+        "color": "brown"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_brown",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 0,
+        "color": "green"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_green",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 0,
+        "color": "red"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_red",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 0,
+        "color": "black"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_black",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 0
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/weathering",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 0,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/rope",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 0,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/contact_shadow",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 1,
+        "color": "white"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_white_spin1",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 1,
+        "color": "orange"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_orange_spin1",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 1,
+        "color": "magenta"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_magenta_spin1",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 1,
+        "color": "light_blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_blue_spin1",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 1,
+        "color": "yellow"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_yellow_spin1",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 1,
+        "color": "lime"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_lime_spin1",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 1,
+        "color": "pink"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_pink_spin1",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 1,
+        "color": "gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_gray_spin1",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 1,
+        "color": "light_gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_gray_spin1",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 1,
+        "color": "cyan"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_cyan_spin1",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 1,
+        "color": "purple"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_purple_spin1",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 1,
+        "color": "blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_blue_spin1",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 1,
+        "color": "brown"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_brown_spin1",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 1,
+        "color": "green"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_green_spin1",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 1,
+        "color": "red"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_red_spin1",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 1,
+        "color": "black"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_black_spin1",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 1
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/weathering_spin1",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 1,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/rope_spin1",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 1,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/contact_shadow_spin1",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 2,
+        "color": "white"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_white_spin2",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 2,
+        "color": "orange"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_orange_spin2",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 2,
+        "color": "magenta"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_magenta_spin2",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 2,
+        "color": "light_blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_blue_spin2",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 2,
+        "color": "yellow"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_yellow_spin2",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 2,
+        "color": "lime"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_lime_spin2",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 2,
+        "color": "pink"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_pink_spin2",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 2,
+        "color": "gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_gray_spin2",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 2,
+        "color": "light_gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_gray_spin2",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 2,
+        "color": "cyan"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_cyan_spin2",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 2,
+        "color": "purple"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_purple_spin2",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 2,
+        "color": "blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_blue_spin2",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 2,
+        "color": "brown"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_brown_spin2",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 2,
+        "color": "green"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_green_spin2",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 2,
+        "color": "red"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_red_spin2",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 2,
+        "color": "black"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_black_spin2",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 2
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/weathering_spin2",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 2,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/rope_spin2",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 2,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/contact_shadow_spin2",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 3,
+        "color": "white"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_white_spin3",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 3,
+        "color": "orange"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_orange_spin3",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 3,
+        "color": "magenta"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_magenta_spin3",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 3,
+        "color": "light_blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_blue_spin3",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 3,
+        "color": "yellow"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_yellow_spin3",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 3,
+        "color": "lime"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_lime_spin3",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 3,
+        "color": "pink"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_pink_spin3",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 3,
+        "color": "gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_gray_spin3",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 3,
+        "color": "light_gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_gray_spin3",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 3,
+        "color": "cyan"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_cyan_spin3",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 3,
+        "color": "purple"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_purple_spin3",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 3,
+        "color": "blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_blue_spin3",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 3,
+        "color": "brown"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_brown_spin3",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 3,
+        "color": "green"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_green_spin3",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 3,
+        "color": "red"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_red_spin3",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 3,
+        "color": "black"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_black_spin3",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 3
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/weathering_spin3",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 3,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/rope_spin3",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "up",
+        "spin": 3,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/contact_shadow_spin3",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 0,
+        "color": "white"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_white",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 0,
+        "color": "orange"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_orange",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 0,
+        "color": "magenta"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_magenta",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 0,
+        "color": "light_blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_blue",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 0,
+        "color": "yellow"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_yellow",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 0,
+        "color": "lime"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_lime",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 0,
+        "color": "pink"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_pink",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 0,
+        "color": "gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_gray",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 0,
+        "color": "light_gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_gray",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 0,
+        "color": "cyan"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_cyan",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 0,
+        "color": "purple"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_purple",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 0,
+        "color": "blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_blue",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 0,
+        "color": "brown"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_brown",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 0,
+        "color": "green"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_green",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 0,
+        "color": "red"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_red",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 0,
+        "color": "black"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_black",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 0
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/weathering",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 0,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/rope",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 0,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/contact_shadow",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 1,
+        "color": "white"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_white_spin1",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 1,
+        "color": "orange"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_orange_spin1",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 1,
+        "color": "magenta"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_magenta_spin1",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 1,
+        "color": "light_blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_blue_spin1",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 1,
+        "color": "yellow"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_yellow_spin1",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 1,
+        "color": "lime"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_lime_spin1",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 1,
+        "color": "pink"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_pink_spin1",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 1,
+        "color": "gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_gray_spin1",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 1,
+        "color": "light_gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_gray_spin1",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 1,
+        "color": "cyan"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_cyan_spin1",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 1,
+        "color": "purple"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_purple_spin1",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 1,
+        "color": "blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_blue_spin1",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 1,
+        "color": "brown"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_brown_spin1",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 1,
+        "color": "green"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_green_spin1",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 1,
+        "color": "red"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_red_spin1",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 1,
+        "color": "black"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_black_spin1",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 1
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/weathering_spin1",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 1,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/rope_spin1",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 1,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/contact_shadow_spin1",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 2,
+        "color": "white"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_white_spin2",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 2,
+        "color": "orange"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_orange_spin2",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 2,
+        "color": "magenta"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_magenta_spin2",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 2,
+        "color": "light_blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_blue_spin2",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 2,
+        "color": "yellow"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_yellow_spin2",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 2,
+        "color": "lime"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_lime_spin2",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 2,
+        "color": "pink"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_pink_spin2",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 2,
+        "color": "gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_gray_spin2",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 2,
+        "color": "light_gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_gray_spin2",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 2,
+        "color": "cyan"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_cyan_spin2",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 2,
+        "color": "purple"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_purple_spin2",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 2,
+        "color": "blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_blue_spin2",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 2,
+        "color": "brown"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_brown_spin2",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 2,
+        "color": "green"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_green_spin2",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 2,
+        "color": "red"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_red_spin2",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 2,
+        "color": "black"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_black_spin2",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 2
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/weathering_spin2",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 2,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/rope_spin2",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 2,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/contact_shadow_spin2",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 3,
+        "color": "white"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_white_spin3",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 3,
+        "color": "orange"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_orange_spin3",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 3,
+        "color": "magenta"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_magenta_spin3",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 3,
+        "color": "light_blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_blue_spin3",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 3,
+        "color": "yellow"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_yellow_spin3",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 3,
+        "color": "lime"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_lime_spin3",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 3,
+        "color": "pink"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_pink_spin3",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 3,
+        "color": "gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_gray_spin3",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 3,
+        "color": "light_gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_gray_spin3",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 3,
+        "color": "cyan"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_cyan_spin3",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 3,
+        "color": "purple"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_purple_spin3",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 3,
+        "color": "blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_blue_spin3",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 3,
+        "color": "brown"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_brown_spin3",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 3,
+        "color": "green"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_green_spin3",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 3,
+        "color": "red"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_red_spin3",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 3,
+        "color": "black"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_black_spin3",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 3
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/weathering_spin3",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 3,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/rope_spin3",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "north",
+        "spin": 3,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/contact_shadow_spin3",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 0,
+        "color": "white"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_white",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 0,
+        "color": "orange"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_orange",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 0,
+        "color": "magenta"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_magenta",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 0,
+        "color": "light_blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_blue",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 0,
+        "color": "yellow"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_yellow",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 0,
+        "color": "lime"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_lime",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 0,
+        "color": "pink"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_pink",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 0,
+        "color": "gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_gray",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 0,
+        "color": "light_gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_gray",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 0,
+        "color": "cyan"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_cyan",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 0,
+        "color": "purple"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_purple",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 0,
+        "color": "blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_blue",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 0,
+        "color": "brown"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_brown",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 0,
+        "color": "green"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_green",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 0,
+        "color": "red"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_red",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 0,
+        "color": "black"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_black",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 0
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/weathering",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 0,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/rope",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 0,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/contact_shadow",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 1,
+        "color": "white"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_white_spin1",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 1,
+        "color": "orange"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_orange_spin1",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 1,
+        "color": "magenta"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_magenta_spin1",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 1,
+        "color": "light_blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_blue_spin1",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 1,
+        "color": "yellow"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_yellow_spin1",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 1,
+        "color": "lime"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_lime_spin1",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 1,
+        "color": "pink"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_pink_spin1",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 1,
+        "color": "gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_gray_spin1",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 1,
+        "color": "light_gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_gray_spin1",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 1,
+        "color": "cyan"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_cyan_spin1",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 1,
+        "color": "purple"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_purple_spin1",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 1,
+        "color": "blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_blue_spin1",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 1,
+        "color": "brown"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_brown_spin1",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 1,
+        "color": "green"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_green_spin1",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 1,
+        "color": "red"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_red_spin1",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 1,
+        "color": "black"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_black_spin1",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 1
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/weathering_spin1",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 1,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/rope_spin1",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 1,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/contact_shadow_spin1",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 2,
+        "color": "white"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_white_spin2",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 2,
+        "color": "orange"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_orange_spin2",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 2,
+        "color": "magenta"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_magenta_spin2",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 2,
+        "color": "light_blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_blue_spin2",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 2,
+        "color": "yellow"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_yellow_spin2",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 2,
+        "color": "lime"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_lime_spin2",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 2,
+        "color": "pink"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_pink_spin2",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 2,
+        "color": "gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_gray_spin2",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 2,
+        "color": "light_gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_gray_spin2",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 2,
+        "color": "cyan"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_cyan_spin2",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 2,
+        "color": "purple"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_purple_spin2",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 2,
+        "color": "blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_blue_spin2",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 2,
+        "color": "brown"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_brown_spin2",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 2,
+        "color": "green"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_green_spin2",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 2,
+        "color": "red"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_red_spin2",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 2,
+        "color": "black"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_black_spin2",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 2
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/weathering_spin2",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 2,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/rope_spin2",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 2,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/contact_shadow_spin2",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 3,
+        "color": "white"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_white_spin3",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 3,
+        "color": "orange"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_orange_spin3",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 3,
+        "color": "magenta"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_magenta_spin3",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 3,
+        "color": "light_blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_blue_spin3",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 3,
+        "color": "yellow"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_yellow_spin3",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 3,
+        "color": "lime"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_lime_spin3",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 3,
+        "color": "pink"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_pink_spin3",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 3,
+        "color": "gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_gray_spin3",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 3,
+        "color": "light_gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_gray_spin3",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 3,
+        "color": "cyan"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_cyan_spin3",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 3,
+        "color": "purple"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_purple_spin3",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 3,
+        "color": "blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_blue_spin3",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 3,
+        "color": "brown"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_brown_spin3",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 3,
+        "color": "green"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_green_spin3",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 3,
+        "color": "red"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_red_spin3",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 3,
+        "color": "black"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_black_spin3",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 3
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/weathering_spin3",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 3,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/rope_spin3",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south",
+        "spin": 3,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/contact_shadow_spin3",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 0,
+        "color": "white"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_white",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 0,
+        "color": "orange"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_orange",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 0,
+        "color": "magenta"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_magenta",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 0,
+        "color": "light_blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_blue",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 0,
+        "color": "yellow"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_yellow",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 0,
+        "color": "lime"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_lime",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 0,
+        "color": "pink"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_pink",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 0,
+        "color": "gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_gray",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 0,
+        "color": "light_gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_gray",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 0,
+        "color": "cyan"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_cyan",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 0,
+        "color": "purple"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_purple",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 0,
+        "color": "blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_blue",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 0,
+        "color": "brown"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_brown",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 0,
+        "color": "green"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_green",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 0,
+        "color": "red"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_red",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 0,
+        "color": "black"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_black",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 0
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/weathering",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 0,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/rope",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 0,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/contact_shadow",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 1,
+        "color": "white"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_white_spin1",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 1,
+        "color": "orange"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_orange_spin1",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 1,
+        "color": "magenta"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_magenta_spin1",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 1,
+        "color": "light_blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_blue_spin1",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 1,
+        "color": "yellow"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_yellow_spin1",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 1,
+        "color": "lime"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_lime_spin1",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 1,
+        "color": "pink"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_pink_spin1",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 1,
+        "color": "gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_gray_spin1",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 1,
+        "color": "light_gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_gray_spin1",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 1,
+        "color": "cyan"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_cyan_spin1",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 1,
+        "color": "purple"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_purple_spin1",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 1,
+        "color": "blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_blue_spin1",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 1,
+        "color": "brown"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_brown_spin1",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 1,
+        "color": "green"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_green_spin1",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 1,
+        "color": "red"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_red_spin1",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 1,
+        "color": "black"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_black_spin1",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 1
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/weathering_spin1",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 1,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/rope_spin1",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 1,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/contact_shadow_spin1",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 2,
+        "color": "white"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_white_spin2",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 2,
+        "color": "orange"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_orange_spin2",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 2,
+        "color": "magenta"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_magenta_spin2",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 2,
+        "color": "light_blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_blue_spin2",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 2,
+        "color": "yellow"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_yellow_spin2",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 2,
+        "color": "lime"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_lime_spin2",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 2,
+        "color": "pink"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_pink_spin2",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 2,
+        "color": "gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_gray_spin2",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 2,
+        "color": "light_gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_gray_spin2",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 2,
+        "color": "cyan"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_cyan_spin2",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 2,
+        "color": "purple"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_purple_spin2",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 2,
+        "color": "blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_blue_spin2",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 2,
+        "color": "brown"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_brown_spin2",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 2,
+        "color": "green"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_green_spin2",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 2,
+        "color": "red"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_red_spin2",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 2,
+        "color": "black"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_black_spin2",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 2
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/weathering_spin2",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 2,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/rope_spin2",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 2,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/contact_shadow_spin2",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 3,
+        "color": "white"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_white_spin3",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 3,
+        "color": "orange"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_orange_spin3",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 3,
+        "color": "magenta"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_magenta_spin3",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 3,
+        "color": "light_blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_blue_spin3",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 3,
+        "color": "yellow"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_yellow_spin3",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 3,
+        "color": "lime"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_lime_spin3",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 3,
+        "color": "pink"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_pink_spin3",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 3,
+        "color": "gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_gray_spin3",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 3,
+        "color": "light_gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_gray_spin3",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 3,
+        "color": "cyan"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_cyan_spin3",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 3,
+        "color": "purple"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_purple_spin3",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 3,
+        "color": "blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_blue_spin3",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 3,
+        "color": "brown"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_brown_spin3",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 3,
+        "color": "green"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_green_spin3",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 3,
+        "color": "red"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_red_spin3",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 3,
+        "color": "black"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_black_spin3",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 3
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/weathering_spin3",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 3,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/rope_spin3",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "west",
+        "spin": 3,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/contact_shadow_spin3",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 0,
+        "color": "white"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_white",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 0,
+        "color": "orange"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_orange",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 0,
+        "color": "magenta"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_magenta",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 0,
+        "color": "light_blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_blue",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 0,
+        "color": "yellow"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_yellow",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 0,
+        "color": "lime"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_lime",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 0,
+        "color": "pink"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_pink",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 0,
+        "color": "gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_gray",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 0,
+        "color": "light_gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_gray",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 0,
+        "color": "cyan"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_cyan",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 0,
+        "color": "purple"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_purple",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 0,
+        "color": "blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_blue",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 0,
+        "color": "brown"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_brown",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 0,
+        "color": "green"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_green",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 0,
+        "color": "red"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_red",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 0,
+        "color": "black"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_black",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 0
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/weathering",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 0,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/rope",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 0,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/contact_shadow",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 1,
+        "color": "white"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_white_spin1",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 1,
+        "color": "orange"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_orange_spin1",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 1,
+        "color": "magenta"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_magenta_spin1",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 1,
+        "color": "light_blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_blue_spin1",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 1,
+        "color": "yellow"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_yellow_spin1",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 1,
+        "color": "lime"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_lime_spin1",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 1,
+        "color": "pink"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_pink_spin1",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 1,
+        "color": "gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_gray_spin1",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 1,
+        "color": "light_gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_gray_spin1",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 1,
+        "color": "cyan"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_cyan_spin1",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 1,
+        "color": "purple"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_purple_spin1",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 1,
+        "color": "blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_blue_spin1",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 1,
+        "color": "brown"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_brown_spin1",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 1,
+        "color": "green"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_green_spin1",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 1,
+        "color": "red"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_red_spin1",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 1,
+        "color": "black"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_black_spin1",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 1
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/weathering_spin1",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 1,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/rope_spin1",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 1,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/contact_shadow_spin1",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 2,
+        "color": "white"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_white_spin2",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 2,
+        "color": "orange"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_orange_spin2",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 2,
+        "color": "magenta"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_magenta_spin2",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 2,
+        "color": "light_blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_blue_spin2",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 2,
+        "color": "yellow"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_yellow_spin2",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 2,
+        "color": "lime"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_lime_spin2",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 2,
+        "color": "pink"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_pink_spin2",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 2,
+        "color": "gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_gray_spin2",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 2,
+        "color": "light_gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_gray_spin2",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 2,
+        "color": "cyan"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_cyan_spin2",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 2,
+        "color": "purple"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_purple_spin2",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 2,
+        "color": "blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_blue_spin2",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 2,
+        "color": "brown"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_brown_spin2",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 2,
+        "color": "green"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_green_spin2",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 2,
+        "color": "red"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_red_spin2",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 2,
+        "color": "black"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_black_spin2",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 2
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/weathering_spin2",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 2,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/rope_spin2",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 2,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/contact_shadow_spin2",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 3,
+        "color": "white"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_white_spin3",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 3,
+        "color": "orange"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_orange_spin3",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 3,
+        "color": "magenta"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_magenta_spin3",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 3,
+        "color": "light_blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_blue_spin3",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 3,
+        "color": "yellow"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_yellow_spin3",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 3,
+        "color": "lime"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_lime_spin3",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 3,
+        "color": "pink"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_pink_spin3",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 3,
+        "color": "gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_gray_spin3",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 3,
+        "color": "light_gray"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_light_gray_spin3",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 3,
+        "color": "cyan"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_cyan_spin3",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 3,
+        "color": "purple"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_purple_spin3",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 3,
+        "color": "blue"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_blue_spin3",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 3,
+        "color": "brown"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_brown_spin3",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 3,
+        "color": "green"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_green_spin3",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 3,
+        "color": "red"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_red_spin3",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 3,
+        "color": "black"
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/anchor_black_spin3",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 3
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/weathering_spin3",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 3,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/rope_spin3",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "east",
+        "spin": 3,
+        "roped": true
+      },
+      "apply": {
+        "model": "builders_balloon:block/balloon_tether/contact_shadow_spin3",
+        "x": 90,
+        "y": 270
+      }
+    }
+  ]
+}

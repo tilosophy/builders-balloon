@@ -1,0 +1,5 @@
+newmtl ContactShadow
+Ka 0 0 0
+Kd 1 1 1 0.333333333
+map_Kd #contact_shadow
+forge_TintIndex -1

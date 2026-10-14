@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " W ",
+    "LGL",
+    " I "
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:light_blue_wool"
+    },
+    "L": {
+      "tag": "builders_balloon:ropes"
+    },
+    "G": {
+      "item": "minecraft:iron_block"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "id": "builders_balloon:metal_balloon_tether",
+    "count": 1,
+    "components": {
+      "minecraft:block_state": {
+        "color": "light_blue"
+      }
+    }
+  }
+}

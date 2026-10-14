@@ -1,0 +1,41 @@
+newmtl Wood
+Ka 0 0 0
+Kd 1 1 1
+map_Kd #wood
+forge_TintIndex -1
+
+newmtl Stripped
+Ka 0 0 0
+Kd 1 1 1
+map_Kd #stripped
+forge_TintIndex -1
+
+newmtl Metal
+Ka 0 0 0
+Kd 1 1 1
+map_Kd #metal
+forge_TintIndex -1
+
+newmtl Rivet
+Ka 0 0 0
+Kd 1 1 1
+map_Kd #rivet
+forge_TintIndex -1
+
+newmtl Rope
+Ka 0 0 0
+Kd 1 1 1
+map_Kd #wrap
+forge_TintIndex -1
+
+newmtl Paint
+Ka 0 0 0
+Kd 1 1 1
+map_Kd #paint
+forge_TintIndex -1
+
+newmtl PaintEnd
+Ka 0 0 0
+Kd 1 1 1
+map_Kd #paint_end
+forge_TintIndex -1

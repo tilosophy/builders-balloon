@@ -1,0 +1,31 @@
+{
+  "default": {
+    "spdx": "MIT",
+    "copyright": "2026 tilosophy",
+    "applies_to": "Project-authored code, documentation, models and textures"
+  },
+  "exceptions": [
+    {
+      "paths": [
+        "src/main/resources/assets/builders_balloon/sounds/balloon_inflate.ogg",
+        "src/main/resources/assets/builders_balloon/sounds/balloon_pop.ogg"
+      ],
+      "licence": "LicenseRef-Pixabay-Content",
+      "terms": "https://pixabay.com/service/terms/",
+      "notice": "NOTICE.md"
+    },
+    {
+      "paths": [
+        "gradle/wrapper/gradle-wrapper.jar"
+      ],
+      "licence": "Apache-2.0",
+      "notice": "gradle/wrapper/LICENSE-APACHE-2.0.txt"
+    }
+  ],
+  "excluded_from_public_source": [
+    "Private audio masters/editing archives",
+    "Old development archives/history",
+    "Third-party reference images",
+    "External mod/game fixture JARs"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "loader": "neoforge:obj",
+  "parent": "block/block",
+  "model": "builders_balloon:models/block/balloon_tether/contact_shadow_spin2.obj",
+  "flip_v": true,
+  "automatic_culling": false,
+  "render_type": "translucent",
+  "textures": {
+    "contact_shadow": "builders_balloon:block/anchor/contact_shadow",
+    "wood": "builders_balloon:block/metal_anchor/iron",
+    "stripped": "builders_balloon:block/metal_anchor/iron",
+    "metal": "builders_balloon:block/metal_anchor/iron_base",
+    "particle": "builders_balloon:block/metal_anchor/iron",
+    "rivet": "builders_balloon:block/metal_anchor/rivet_base"
+  }
+}

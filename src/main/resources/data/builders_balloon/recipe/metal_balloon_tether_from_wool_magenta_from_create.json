@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " W ",
+    "LGL",
+    " I "
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:magenta_wool"
+    },
+    "L": {
+      "tag": "builders_balloon:ropes"
+    },
+    "G": {
+      "item": "create:industrial_iron_block"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "id": "builders_balloon:metal_balloon_tether",
+    "count": 1,
+    "components": {
+      "minecraft:block_state": {
+        "color": "magenta"
+      }
+    }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "create:industrial_iron_block"
+    }
+  ]
+}

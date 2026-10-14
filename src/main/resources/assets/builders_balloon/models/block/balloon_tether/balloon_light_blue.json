@@ -1,0 +1,14 @@
+{
+  "loader": "neoforge:obj",
+  "model": "builders_balloon:models/block/balloon_tether/balloon.obj",
+  "textures": {
+    "balloon": "builders_balloon:block/balloon_light_blue",
+    "crown": "builders_balloon:block/balloon_crown_light_blue",
+    "tie": "builders_balloon:block/balloon_tie",
+    "particle": "#balloon"
+  },
+  "parent": "block/block",
+  "automatic_culling": false,
+  "flip_v": true,
+  "render_type": "cutout"
+}

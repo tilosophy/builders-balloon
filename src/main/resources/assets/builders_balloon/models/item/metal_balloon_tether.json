@@ -1,0 +1,101 @@
+{
+  "parent": "builders_balloon:item/metal_balloon_tether_white",
+  "overrides": [
+    {
+      "predicate": {
+        "builders_balloon:color": 0
+      },
+      "model": "builders_balloon:item/metal_balloon_tether_white"
+    },
+    {
+      "predicate": {
+        "builders_balloon:color": 1
+      },
+      "model": "builders_balloon:item/metal_balloon_tether_orange"
+    },
+    {
+      "predicate": {
+        "builders_balloon:color": 2
+      },
+      "model": "builders_balloon:item/metal_balloon_tether_magenta"
+    },
+    {
+      "predicate": {
+        "builders_balloon:color": 3
+      },
+      "model": "builders_balloon:item/metal_balloon_tether_light_blue"
+    },
+    {
+      "predicate": {
+        "builders_balloon:color": 4
+      },
+      "model": "builders_balloon:item/metal_balloon_tether_yellow"
+    },
+    {
+      "predicate": {
+        "builders_balloon:color": 5
+      },
+      "model": "builders_balloon:item/metal_balloon_tether_lime"
+    },
+    {
+      "predicate": {
+        "builders_balloon:color": 6
+      },
+      "model": "builders_balloon:item/metal_balloon_tether_pink"
+    },
+    {
+      "predicate": {
+        "builders_balloon:color": 7
+      },
+      "model": "builders_balloon:item/metal_balloon_tether_gray"
+    },
+    {
+      "predicate": {
+        "builders_balloon:color": 8
+      },
+      "model": "builders_balloon:item/metal_balloon_tether_light_gray"
+    },
+    {
+      "predicate": {
+        "builders_balloon:color": 9
+      },
+      "model": "builders_balloon:item/metal_balloon_tether_cyan"
+    },
+    {
+      "predicate": {
+        "builders_balloon:color": 10
+      },
+      "model": "builders_balloon:item/metal_balloon_tether_purple"
+    },
+    {
+      "predicate": {
+        "builders_balloon:color": 11
+      },
+      "model": "builders_balloon:item/metal_balloon_tether_blue"
+    },
+    {
+      "predicate": {
+        "builders_balloon:color": 12
+      },
+      "model": "builders_balloon:item/metal_balloon_tether_brown"
+    },
+    {
+      "predicate": {
+        "builders_balloon:color": 13
+      },
+      "model": "builders_balloon:item/metal_balloon_tether_green"
+    },
+    {
+      "predicate": {
+        "builders_balloon:color": 14
+      },
+      "model": "builders_balloon:item/metal_balloon_tether_red"
+    },
+    {
+      "predicate": {
+        "builders_balloon:color": 15
+      },
+      "model": "builders_balloon:item/metal_balloon_tether_black"
+    }
+  ]
+}

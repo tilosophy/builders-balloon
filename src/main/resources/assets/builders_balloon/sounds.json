@@ -1,0 +1,14 @@
+{
+  "balloon_inflate": {
+    "subtitle": "subtitles.builders_balloon.balloon_inflate",
+    "sounds": [
+      "builders_balloon:balloon_inflate"
+    ]
+  },
+  "balloon_pop": {
+    "subtitle": "subtitles.builders_balloon.balloon_pop",
+    "sounds": [
+      "builders_balloon:balloon_pop"
+    ]
+  }
+}

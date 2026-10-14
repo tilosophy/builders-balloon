@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "builders_balloon:bollard"
+    },
+    {
+      "item": "minecraft:blue_dye"
+    }
+  ],
+  "result": {
+    "id": "builders_balloon:bollard",
+    "count": 1,
+    "components": {
+      "minecraft:block_state": {
+        "color": "blue"
+      }
+    }
+  }
+}

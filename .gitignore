@@ -1,0 +1,15 @@
+.gradle/
+build/
+runs/
+run/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+bin/
+out/
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc

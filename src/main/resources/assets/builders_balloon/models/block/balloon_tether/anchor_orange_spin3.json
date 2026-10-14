@@ -1,0 +1,23 @@
+{
+  "loader": "neoforge:obj",
+  "model": "builders_balloon:models/block/balloon_tether/anchor_spin3.obj",
+  "parent": "block/block",
+  "automatic_culling": false,
+  "flip_v": true,
+  "render_type": "cutout",
+  "textures": {
+    "particle": "minecraft:block/oak_log",
+    "wood": "minecraft:block/oak_log",
+    "metal": "builders_balloon:block/anchor/metal",
+    "rivet": "builders_balloon:block/anchor/rivet",
+    "wrap": "builders_balloon:block/anchor/rope",
+    "paint": "builders_balloon:block/anchor/paint_orange",
+    "paint_end": "builders_balloon:block/anchor/cap_orange",
+    "stripped": "minecraft:block/stripped_oak_log"
+  },
+  "visibility": {
+    "Timber": true,
+    "Mount": true,
+    "Rope": false
+  }
+}

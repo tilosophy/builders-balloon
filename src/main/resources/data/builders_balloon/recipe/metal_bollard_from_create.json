@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "G",
+    "I"
+  ],
+  "key": {
+    "G": {
+      "item": "create:industrial_iron_block"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "id": "builders_balloon:metal_bollard",
+    "count": 2,
+    "components": {
+      "minecraft:block_state": {
+        "color": "white"
+      }
+    }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "create:industrial_iron_block"
+    }
+  ]
+}

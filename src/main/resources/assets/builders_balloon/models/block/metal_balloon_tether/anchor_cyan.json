@@ -1,0 +1,12 @@
+{
+  "parent": "builders_balloon:block/metal_balloon_tether/model",
+  "textures": {
+    "paint": "builders_balloon:block/metal_anchor/paint_cyan",
+    "paint_end": "builders_balloon:block/metal_anchor/cap_cyan",
+    "wood": "builders_balloon:block/metal_anchor/iron",
+    "stripped": "builders_balloon:block/metal_anchor/iron",
+    "metal": "builders_balloon:block/metal_anchor/iron_base",
+    "particle": "builders_balloon:block/metal_anchor/iron",
+    "rivet": "builders_balloon:block/metal_anchor/rivet_base"
+  }
+}

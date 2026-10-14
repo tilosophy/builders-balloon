@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "builders_balloon:metal_bollard",
+          "functions": [
+            {
+              "function": "minecraft:copy_state",
+              "block": "builders_balloon:metal_bollard",
+              "properties": [
+                "color"
+              ]
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ]
+}

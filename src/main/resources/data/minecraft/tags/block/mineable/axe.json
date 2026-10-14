@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "builders_balloon:balloon_tether",
+    "builders_balloon:bollard"
+  ]
+}

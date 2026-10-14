@@ -1,0 +1,23 @@
+{
+  "loader": "neoforge:obj",
+  "model": "builders_balloon:models/block/balloon_tether/anchor_spin1.obj",
+  "parent": "block/block",
+  "automatic_culling": false,
+  "flip_v": true,
+  "render_type": "cutout",
+  "textures": {
+    "particle": "builders_balloon:block/metal_anchor/iron",
+    "wood": "builders_balloon:block/metal_anchor/iron",
+    "metal": "builders_balloon:block/metal_anchor/iron_base",
+    "rivet": "builders_balloon:block/metal_anchor/rivet_base",
+    "wrap": "builders_balloon:block/anchor/rope",
+    "paint": "builders_balloon:block/metal_anchor/paint_pink",
+    "paint_end": "builders_balloon:block/metal_anchor/cap_pink",
+    "stripped": "builders_balloon:block/metal_anchor/iron"
+  },
+  "visibility": {
+    "Timber": true,
+    "Mount": true,
+    "Rope": false
+  }
+}

@@ -1,0 +1,13 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+[[mods]]
+modId="builders_balloon_tests"
+version="1"
+displayName="Balloon Runtime Tests"
+[[dependencies.builders_balloon_tests]]
+modId="builders_balloon"
+type="required"
+versionRange="[0.1.0-alpha.5,)"
+ordering="AFTER"
+side="BOTH"

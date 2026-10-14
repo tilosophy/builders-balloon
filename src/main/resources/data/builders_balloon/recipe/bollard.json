@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "G",
+    "I"
+  ],
+  "key": {
+    "G": {
+      "tag": "minecraft:logs"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "id": "builders_balloon:bollard",
+    "count": 2,
+    "components": {
+      "minecraft:block_state": {
+        "color": "white"
+      }
+    }
+  }
+}

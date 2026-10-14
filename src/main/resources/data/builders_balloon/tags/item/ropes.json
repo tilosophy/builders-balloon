@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:lead",
+    {
+      "id": "supplementaries:rope",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:rope",
+      "required": false
+    },
+    {
+      "id": "quark:rope",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "loader": "neoforge:obj",
+  "model": "builders_balloon:models/block/balloon_tether/weathering.obj",
+  "parent": "block/block",
+  "automatic_culling": false,
+  "flip_v": true,
+  "render_type": "translucent",
+  "textures": {
+    "particle": "minecraft:block/oak_log",
+    "weathering": "builders_balloon:block/anchor/weathering"
+  }
+}

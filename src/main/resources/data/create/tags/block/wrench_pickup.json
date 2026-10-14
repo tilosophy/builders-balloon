@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "builders_balloon:balloon_tether",
+    "builders_balloon:bollard",
+    "builders_balloon:metal_balloon_tether",
+    "builders_balloon:metal_bollard"
+  ]
+}

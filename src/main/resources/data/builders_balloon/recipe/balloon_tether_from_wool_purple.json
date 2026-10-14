@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " W ",
+    "LGL",
+    " I "
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:purple_wool"
+    },
+    "L": {
+      "tag": "builders_balloon:ropes"
+    },
+    "G": {
+      "tag": "minecraft:logs"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "id": "builders_balloon:balloon_tether",
+    "count": 1,
+    "components": {
+      "minecraft:block_state": {
+        "color": "purple"
+      }
+    }
+  }
+}

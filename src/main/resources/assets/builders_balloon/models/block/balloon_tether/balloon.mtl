@@ -1,0 +1,15 @@
+newmtl Fabric
+Ka 0 0 0
+Kd 1 1 1
+map_Kd #balloon
+forge_TintIndex -1
+newmtl Crown
+Ka 0 0 0
+Kd 1 1 1
+map_Kd #crown
+forge_TintIndex -1
+newmtl Tie
+Ka 0 0 0
+Kd 1 1 1
+map_Kd #tie
+forge_TintIndex -1

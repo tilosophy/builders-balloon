@@ -1,0 +1,13 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+[[mods]]
+modId="builders_balloon_sable_tests"
+version="1"
+displayName="Balloon Sable Runtime Tests"
+[[dependencies.builders_balloon_sable_tests]]
+modId="sable"
+type="required"
+versionRange="[2.0.6]"
+ordering="AFTER"
+side="BOTH"

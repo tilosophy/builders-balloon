@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "builders_balloon:recolour",
+  "ingredients": [
+    {
+      "item": "builders_balloon:balloon_tether"
+    },
+    {
+      "item": "minecraft:magenta_dye"
+    }
+  ],
+  "result": {
+    "id": "builders_balloon:balloon_tether",
+    "count": 1,
+    "components": {
+      "minecraft:block_state": {
+        "color": "magenta"
+      }
+    }
+  }
+}
